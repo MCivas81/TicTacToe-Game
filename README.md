@@ -40,7 +40,7 @@ Per avviare il gioco Tic Tac Toe, segui questi passaggi:
 2. Scarica o clona il repository del gioco Tic Tac Toe.
 3. Apri il terminale nella directory del progetto.
 4. Esegui `npm install` per installare le dipendenze.
-5. Esegui `npm start` per avviare l'applicazione.
-6. Apri il tuo browser e vai all'indirizzo `http://localhost:3000` per giocare al Tic Tac Toe!
+5. Esegui `npm run dev` per avviare l'applicazione.
+6. Apri il tuo browser e vai all'indirizzo `http://localhost:5173` per giocare al Tic Tac Toe!
 
 Divertiti a giocare!
