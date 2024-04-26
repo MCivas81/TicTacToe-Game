@@ -11,7 +11,6 @@ const Board: React.FC<BoardProps> = ({
 }) => {
   const [squares, setSquares] = useState<string[]>(Array(9).fill(""));
   const [xIsNext, setXIsNext] = useState<boolean>(lastStarter === "X" ? true : false);
-  console.log("xIsNext", xIsNext);
 
   const handleClick = (index: number) => {
     if (!playerX || !playerO || squares[index] || calculateWinner(squares)) {

@@ -14,7 +14,6 @@ const Leaderboard: React.FC<LeaderboardProps> = ({
   ];
 
   const winnerText = winner === "draw" ? "Pareggio!" : `${winner} ha vinto!`;
-  console.log("winner", winner);
 
   return (
     <div className="mt-8 flex flex-col items-center">
